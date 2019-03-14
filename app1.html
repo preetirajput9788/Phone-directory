@@ -1,0 +1,68 @@
+<!doctype html>
+    <html>
+        <head>
+            <link rel="stylesheet" href="style1.css">
+            <body>
+                <h1>Phone Directory App</h1>
+                
+                <!--button type="button">Add</button>
+                <button type="button">Delete</button>
+                <button type="button">View</button-->
+
+                <form id="contact" action="#">
+            
+            <div>
+            <textarea readonly>Name:</textarea><br>    
+                <label>
+                    <input type="text" name="person" id="name" onkeyup='showPerson(this)'/>
+                </label>
+                <textarea>Phone:</textarea><br>
+                <label>
+                    <input type="text" name="phone" id="name" onkeyup='showPhone(this)' />
+                </label>
+
+            </div>
+            <div>
+                <br><input type="submit" value="Add" id='submit1'/>
+            </div><br>
+                                        
+        </form>
+                
+                    <form id="search" action="#">
+        <!--div id="results">
+          
+      </div>
+        <!--div>
+            <label>
+                <input type="text" name="search" id="search"/>
+            </label>
+        </div>
+                <!--input type="submit" value="View" id='view'/-->
+                        <div>
+                        <input id="js-show-all" type="submit" value="View"/>
+                        </div>
+                        
+                  
+    </form>
+                
+                
+                <form id="delete" action="#">
+                          <div>
+                <br><input type="submit" value="Delete" id='submit2'/>
+            </div>
+                </form>
+            
+        
+        
+                    
+<div id = "show-panel" class="panel">
+
+<input type="text" id='person'/>  <br>              
+<input type="text" id='phone'/>                
+    
+</div>
+            
+            </body>
+                      <script src="app.js"></script>
+        </head>
+    </html>
